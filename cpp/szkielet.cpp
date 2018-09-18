@@ -4,9 +4,11 @@
  
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, char **argv)
 {
-    std::cout << "Eluwa co jest?";	
+    cout << "Eluwa co jest?";	
 	return 0;
 }
 
