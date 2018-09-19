@@ -9,13 +9,14 @@ def hello():
     imie = input("Jak masz na imię? ")
     print("Witaj", imie,)
 def main(args):
+    # zmienne lokalne, o zasięgu lokalnym
     a = int(input("Podaj 1. liczbę: "))
     print(a) 
     b = int(input("Podaj 2. liczbę: "))
     print(b)
     
-    #print("Suma:", a + b)
-    suma(a, b)
+    print("Suma:", suma2(a, b))
+    #suma(a, b)
     #print("Różnica:", a - b)
     różnica(a, b)
     iloczyn(a, b)
@@ -37,3 +38,9 @@ def iloraz(l1, l2):
 if __name__ == '__main__':
     import sys
     sys.exit(main(sys.argv))
+
+def suma2(a, b):
+    """
+    Funkcja sumuje dwie liczby i zwraca wynik
+    """
+    return a + b
