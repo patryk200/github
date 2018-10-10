@@ -1,0 +1,8 @@
+polecenia w git bash:
+
+pwd - drukuje aktualny katalog
+
+cd github - przejście do podanego katalogu
+
+git config --list - wyświetla konfigurację gita 
+
