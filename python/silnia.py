@@ -2,7 +2,20 @@
 # -*- coding: utf-8 -*-
 #
 #  
-  
+
+
+# 5! = 1 * 
+
+
+
+
+
+
+
+def silnia_re(n):
+    if n == 0:
+        return 1
+    return silnia_re(n-1) * n
 
 
 def silnia_it(n):
